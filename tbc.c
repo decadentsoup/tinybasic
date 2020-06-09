@@ -252,8 +252,8 @@ print_help ()
   puts ("");
   puts ("Options:");
   puts ("  -o  set output file name");
-  puts ("  -h  print this help message and exit");
-  puts ("  -V  print this version message adn exit");
+  puts ("  -h  print help message and exit");
+  puts ("  -V  print version message and exit");
   puts ("");
   puts ("Input and output defaults to stdin and stdout.");
 }
@@ -262,11 +262,6 @@ static void
 print_version ()
 {
   puts ("Tiny BASIC Compiler 0.0.0");
-  puts ("Copyright (C) 2012 Entertaining Software, Inc.");
-  puts ("License GPLv3+: GNU GPL version 3 or later \
-<http://gnu.org/licenses/gpl.html>");
-  puts ("This is free software: you are free to change and redistribute it.");
-  puts ("There is NO WARRANTY, to the extent permitted by law.");
 }
 
 static void
